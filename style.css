@@ -1,0 +1,57 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #F5EDEB;
+}
+
+h1 {
+  color: #0E510C;
+  text-shadow: 1px 1px #5CC842;
+  text-align: center;
+  font-size: 40px;
+}
+
+.slideshow {
+  position: relative;
+  max-width: 100%;   
+  width: 100%;
+  max-height: 100%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  user-select: none;
+  text-align: center;
+  line-height: 16px;
+}
+.next {
+  right: 0;
+  border-radius: 100%;
+}
+.prev:hover, .next:hover {
+  background-color: #333333;
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
