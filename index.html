@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Slideshow</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+  </head>  
+  
+  <body>
+    <h1>Costasiella Kuroshimae</h1>
+    
+    <div class="slideshow" style="width:100%">
+      <div class="images">
+      <img src="https://cdn.glitch.com/b8398bc5-afb9-47f2-9c56-289c73b2717c%2Fleaf_slug_2.jpg?v=1603206155150">
+      </div>
+      <div class="images">
+      <img src="https://cdn.glitch.com/b8398bc5-afb9-47f2-9c56-289c73b2717c%2Fleaf_slug_1.jpg?v=1603206156799">
+      </div>
+      <div class="images">
+      <img src="https://cdn.glitch.com/b8398bc5-afb9-47f2-9c56-289c73b2717c%2Fleaf_slug_3.jpg?v=1603206155244">
+      </div>
+      
+      <a class="prev" onclick="nextImage(-1)">&#10094;</a>
+      <a class="next" onclick="nextImage(1)">&#10095;</a>
+    </div>
+    
+  </body>
+  
+</html>
